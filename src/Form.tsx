@@ -24,6 +24,7 @@ const Form = ({ onSubmit }: FormProps) => {
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <div>
+        <h1 className="text-3xl font-bold mx-auto">Ingresa tu nombre y biografía!!</h1>
         <label className="label">
           <span className="label-text">Nombre:</span>
         </label>
